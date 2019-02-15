@@ -11,9 +11,10 @@ using VoteIn.DAL;
 namespace VoteIn.Migrations
 {
     [DbContext(typeof(VoteInContext))]
-    partial class VoteInContextModelSnapshot : ModelSnapshot
+    [Migration("20190214140350_Option_Photo")]
+    partial class Option_Photo
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.IO;
 
 namespace VoteIn.Model.Models
 {
@@ -38,6 +40,11 @@ namespace VoteIn.Model.Models
         /// </value>
         [Column("COLOR")]
         public string Color { get; set; }
+        /// <summary>
+        /// Gets or sets the color.
+        /// </summary>
+        [Column("PHOTO", TypeName = "varchar(MAX)")]
+        public string Photo { get; set; }
         /// <summary>
         /// Gets or sets the voting process option.
         /// </summary>

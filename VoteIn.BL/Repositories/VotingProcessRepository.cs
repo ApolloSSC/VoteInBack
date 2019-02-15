@@ -196,6 +196,7 @@ namespace VoteIn.BL.Repositories
                     else
                     {
                         existingVotingProcessOption.Option.Color = os.Option.Color;
+                        existingVotingProcessOption.Option.Photo = os.Option.Photo;
                         existingVotingProcessOption.Option.Description = os.Option.Description;
                         existingVotingProcessOption.Option.Name = os.Option.Name;
                     }
