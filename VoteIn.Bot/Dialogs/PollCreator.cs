@@ -43,7 +43,7 @@ namespace VoteIn.Bot.Dialogs
 
                     CardAction plButton = new CardAction()
                     {
-                        Value = $"https://voteinapp.com/poll/{scrutin.Id}",
+                        Value = $"https://votein.net/poll/{scrutin.Id}",
                         Type = "openUrl",
                         Title = "Voter"
                     };

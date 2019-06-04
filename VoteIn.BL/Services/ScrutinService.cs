@@ -96,7 +96,7 @@ namespace VoteIn.BL.Services
                         foreach (var elec in scrutin.Voter)
                         {
                             var filledContent = mailContent.Replace("{0}", scrutin.Name)
-                                .Replace("{1}", $"https://www.voteinapp.com/poll/{scrutin.Guid}/result")
+                                .Replace("{1}", $"https://www.votein.net/poll/{scrutin.Guid}/result")
                                 .Replace("{2}", scrutin.Author);
 
                             EmailSenderService.SendEmailAsync(elec.Mail, $"VotingProcess cloturé - {scrutin.Name}", filledContent).Wait();
