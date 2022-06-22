@@ -25,7 +25,7 @@
     <PackageReference Include="BouncyCastle.NetCoreSdk" Version="1.9.0" />
     <PackageReference Include="MathNet.Numerics" Version="4.5.1" />
     <PackageReference Include="Microsoft.CodeCoverage" Version="1.0.3" />
-    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Qoollo.OptTools.Core" Version="6.0.4217.7" />
   </ItemGroup>
 
